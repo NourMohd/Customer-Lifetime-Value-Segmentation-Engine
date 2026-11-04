@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
+# import pandas as pd
+# import numpy as np
 import plotly.express as px
 import joblib
 
@@ -18,13 +18,13 @@ except Exception as e:
     st.error("Artifacts file 'clv_segmentation_artifacts.pkl' not found. Run the notebook/training script first.")
     st.stop()
 
-st.title("📊 Customer Lifetime Value (CLV) & Segmentation Engine")
+st.title("Customer Lifetime Value (CLV) & Segmentation Engine")
 st.markdown("Combines **Unsupervised K-Means** and **Supervised Regression** to guide marketing spend and customer retention.")
 
 # ---------------------------------------------------------
 # SIDEBAR NAVIGATION & CUSTOMER LOOKUP
 # ---------------------------------------------------------
-st.sidebar.header("🔍 Customer Search")
+st.sidebar.header("Customer Search")
 customer_ids = sorted(df['Customer_ID'].unique())
 selected_id = st.sidebar.selectbox("Select or Type Customer ID:", customer_ids)
 
@@ -40,7 +40,7 @@ st.sidebar.info(f"**Action:** {lookup_row['Recommended_Action']}")
 # ---------------------------------------------------------
 # MAIN DASHBOARD TABS
 # ---------------------------------------------------------
-tab1, tab2, tab3 = st.tabs(["📌 Executive Summary", "🧩 Customer Segments", "🔮 PCA & Cluster Map"])
+tab1, tab2, tab3 = st.tabs(["Executive Summary", "Customer Segments", "PCA & Cluster Map"])
 
 with tab1:
     st.subheader("Key Performance Indicators")
