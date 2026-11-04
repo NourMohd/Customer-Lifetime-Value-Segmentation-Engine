@@ -1,0 +1,5 @@
+# Ignore model artifacts
+clv_segmentation_artifacts.pkl
+
+# Ignore datasets (Excel files or CSVs)
+online+retail+ii.zip
