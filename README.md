@@ -105,33 +105,6 @@ Key capabilities include:
 - Predicted 90-day customer spending.
 - Segment-level marketing recommendations.
 
-## Project Structure
-
-```text
-Customer-Lifetime-Value-Segmentation-Engine/
-│
-├── app.py                            # Streamlit dashboard
-├── train_and_save.py                 # Data processing and model training
-├── clv_segmentation_artifacts.pkl    # Saved model artifacts (generated locally)
-├── requirements.txt                  # Project dependencies
-├── .gitignore                        # Excluded files
-└── README.md                         # Project documentation
-```
-
-## Installation & Usage
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/NourMohd/Customer-Lifetime-Value-Segmentation-Engine.git
-cd Customer-Lifetime-Value-Segmentation-Engine
-```
-
-### 2. Install Dependencies
-
-```bash
-python -m pip install -r requirements.txt
-```
 
 ## 🚀 Live Demo
 
