@@ -123,8 +123,8 @@ Customer-Lifetime-Value-Segmentation-Engine/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-cd YOUR_REPOSITORY_NAME
+git clone https://github.com/NourMohd/Customer-Lifetime-Value-Segmentation-Engine.git
+cd Customer-Lifetime-Value-Segmentation-Engine
 ```
 
 ### 2. Install Dependencies
@@ -133,25 +133,12 @@ cd YOUR_REPOSITORY_NAME
 python -m pip install -r requirements.txt
 ```
 
-### 3. Generate Model Artifacts
+## 🚀 Live Demo
 
-Download the dataset from the UCI repository and place it in the expected location used by the training script.
+Try the interactive Customer Lifetime Value & Segmentation Dashboard:
 
-Run:
+[**Open the Streamlit App**]([YOUR_STREAMLIT_APP_URL](https://customer-lifetime-value-segmentation-engine-cy4gajmj9mn89ktjq9.streamlit.app/))
 
-```bash
-python train_and_save.py
-```
-
-This generates the processed data and trained model artifacts required by the dashboard.
-
-### 4. Launch the Dashboard
-
-```bash
-python -m streamlit run app.py
-```
-
-Open the local URL provided by Streamlit to access the dashboard.
 
 ## Technologies Used
 
@@ -170,7 +157,3 @@ Open the local URL provided by Streamlit to access the dashboard.
 - Incorporate customer retention and churn prediction.
 - Improve model interpretability using feature importance and SHAP.
 - Deploy the dashboard using Streamlit Community Cloud.
-
-## License
-
-This project is licensed under the MIT License.
