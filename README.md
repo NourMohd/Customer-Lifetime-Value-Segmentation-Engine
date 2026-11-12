@@ -137,7 +137,7 @@ python -m pip install -r requirements.txt
 
 Try the interactive Customer Lifetime Value & Segmentation Dashboard:
 
-[**Open the Streamlit App**]((https://customer-lifetime-value-segmentation-engine-cy4gajmj9mn89ktjq9.streamlit.app/))
+[**Open the Streamlit App**](https://customer-lifetime-value-segmentation-engine-cy4gajmj9mn89ktjq9.streamlit.app/)
 
 
 ## Technologies Used
