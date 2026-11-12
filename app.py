@@ -9,13 +9,13 @@ st.set_page_config(page_title="Customer CLV & Segmentation Engine", layout="wide
 # Load artifacts
 @st.cache_resource
 def load_artifacts():
-    return joblib.load('clv_segmentation_artifacts.pkl')
+    return joblib.load('model_artifacts.pkl')
 
 try:
     artifacts = load_artifacts()
     df = artifacts['dataset']
 except Exception as e:
-    st.error("Artifacts file 'clv_segmentation_artifacts.pkl' not found. Run the notebook/training script first.")
+    st.error("Artifacts file 'model_artifacts.pkl' not found. Run the notebook/training script first.")
     st.stop()
 
 st.title("Customer Lifetime Value (CLV) & Segmentation Engine")
