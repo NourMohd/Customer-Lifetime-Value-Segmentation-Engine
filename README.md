@@ -139,6 +139,17 @@ Try the interactive Customer Lifetime Value & Segmentation Dashboard:
 
 [**Open the Streamlit App**](https://customer-lifetime-value-segmentation-engine-cy4gajmj9mn89ktjq9.streamlit.app/)
 
+## 📊 Dashboard Preview
+
+### 1. Executive Summary
+![Executive Summary](screenshots/app_photo1.png)
+
+### 2. Customer Segments
+![Customer Segments](screenshots/app_photo2.png)
+
+### 3. PCA & Cluster Map
+![PCA & Cluster Map](screenshots/app_photo3.png)
+
 
 ## Technologies Used
 
